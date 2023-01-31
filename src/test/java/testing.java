@@ -23,7 +23,7 @@ public class testing{
     @Test
     public void isPositionCorrect(){
         Smartphone neu = new Smartphone();
-        assertEquals("Köln", neu.getPosition());
+        assertEquals("Bochum", neu.getPosition());
 
     }
     @Test
