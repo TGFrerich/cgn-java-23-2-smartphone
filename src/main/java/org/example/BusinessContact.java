@@ -6,6 +6,9 @@ public class BusinessContact extends Contact {
     String telephoneNumber;
 
 
+    public BusinessContact() {
+    }
+
     public BusinessContact(String name, String companyName, String telephoneNumber) {
         super(name);
         this.companyName = companyName;

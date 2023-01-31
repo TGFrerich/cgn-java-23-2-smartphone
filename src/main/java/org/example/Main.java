@@ -31,7 +31,7 @@ public class Main {
         System.out.println(iPhone.getPosition());
 
         System.out.println(iPhone.toString());
-
+        System.out.println(iPhone.getContact(0));
 
 
     }

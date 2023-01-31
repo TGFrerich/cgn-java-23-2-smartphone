@@ -41,6 +41,9 @@ public class Smartphone implements Radio, GPS {
 
     }
 
+    public Contact getContact(int index){
+        return contactList.get(index);
+    }
     // Getter and Setter ///////////////////////////////////////
 
         public boolean isHasRadio () {
