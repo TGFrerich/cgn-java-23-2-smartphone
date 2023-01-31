@@ -21,9 +21,6 @@ public class Smartphone implements Radio, GPS {
     }
 
     public String getPosition() {
-//        System.out.println("Standort ist Köln");
-//        String place = "Köln";
-//        return place;
         return "Köln";
 
     }
@@ -37,6 +34,11 @@ public class Smartphone implements Radio, GPS {
         this.modelName = modelName;
         this.nameOfManufacturer = nameOfManufacturer;
         this.contactList = contactList;
+    }
+
+    public void addContact(Contact newContact){
+        contactList.add(newContact);
+
     }
 
     // Getter and Setter ///////////////////////////////////////
