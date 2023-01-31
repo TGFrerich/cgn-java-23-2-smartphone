@@ -1,12 +1,11 @@
 import org.example.BusinessContact;
 import org.example.Smartphone;
 import org.junit.jupiter.api.Test;
-import java.lang.reflect.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class testing{
+public class SmartphoneTest {
 
     @Test
 
@@ -23,7 +22,7 @@ public class testing{
     @Test
     public void isPositionCorrect(){
         Smartphone neu = new Smartphone();
-        assertEquals("Bochum", neu.getPosition());
+        assertEquals("Köln", neu.getPosition());
 
     }
     @Test
